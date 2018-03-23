@@ -32,16 +32,10 @@ module.exports = {
         questions: [
             {
                 text: 'text1',
-                type: 'type',
-                right_answer: 'rightAnswer',
+                right_answer: [1,2,3],
                 count_right_answer: 2,
                 points: 2,
-                answers: [
-                    {text: 'text', is_true: true},
-                    {text: 'text', is_true: false},
-                    {text: 'text', is_true: true},
-                    {text: 'text', is_true: false},
-                ]
+                answers: ['text','text','text','text','text'],
             },
             {
                 text: 'text2',
@@ -49,12 +43,7 @@ module.exports = {
                 right_answer: 'rightAnswer',
                 count_right_answer: 2,
                 points: 2,
-                answers: [
-                    {text: 'text', is_true: false},
-                    {text: 'text', is_true: true},
-                    {text: 'text', is_true: false},
-                    {text: 'text', is_true: true},
-                ]
+                answers: ['text','text','text','text','text'],
             },
         ]
     }

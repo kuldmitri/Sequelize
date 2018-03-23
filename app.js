@@ -49,3 +49,4 @@ console.log(myObj.interview);
 db.Interview.sync({force:true}).then(() => {
     return db.Interview.create(myObj.interview);
 });
+
